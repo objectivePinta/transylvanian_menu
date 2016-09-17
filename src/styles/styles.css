@@ -1,0 +1,178 @@
+/*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+  margin-top: 50px  !important; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.header-image {
+  display: block  !important;
+  width: 100%  !important;
+  text-align: center  !important;
+  background: url('http://placehold.it/1900x500') no-repeat center center scroll  !important;
+  -webkit-background-size: cover  !important;
+  -moz-background-size: cover  !important;
+  background-size: cover  !important;
+  -o-background-size: cover  !important;
+}
+
+.headline {
+  padding: 120px 0  !important;
+}
+
+.headline h1 {
+  font-size: 130px  !important;
+  background: #fff  !important;
+  background: rgba(255,255,255,0.9)  !important;
+}
+
+.headline h2 {
+  font-size: 77px  !important;
+  background: #fff  !important;
+  background: rgba(255,255,255,0.9)  !important;
+}
+
+.featurette-divider {
+  margin: 80px 0  !important;
+}
+
+.featurette {
+  overflow: hidden  !important;
+}
+
+.featurette-image.pull-left {
+  margin-right: 40px  !important;
+}
+
+.featurette-image.pull-right {
+  margin-left: 40px  !important;
+}
+
+.featurette-heading {
+  font-size: 50px  !important;
+}
+
+footer {
+  margin: 50px 0  !important;
+}
+
+@media(max-width:1200px) {
+  .headline h1 {
+    font-size: 140px  !important;
+  }
+
+  .headline h2 {
+    font-size: 63px  !important;
+  }
+
+  .featurette-divider {
+    margin: 50px 0  !important;
+  }
+
+  .featurette-image.pull-left {
+    margin-right: 20px  !important;
+  }
+
+  .featurette-image.pull-right {
+    margin-left: 20px  !important;
+  }
+
+  .featurette-heading {
+    font-size: 35px  !important;
+  }
+}
+
+@media(max-width:991px) {
+  .headline h1 {
+    font-size: 105px  !important;
+  }
+
+  .headline h2 {
+    font-size: 50px  !important;
+  }
+
+  .featurette-divider {
+    margin: 40px 0  !important;
+  }
+
+  .featurette-image {
+    max-width: 50%  !important;
+  }
+
+  .featurette-image.pull-left {
+    margin-right: 10px  !important;
+  }
+
+  .featurette-image.pull-right {
+    margin-left: 10px  !important;
+  }
+
+  .featurette-heading {
+    font-size: 30px  !important;
+  }
+}
+
+@media(max-width:768px) {
+  .container {
+    margin: 0 15px  !important;
+  }
+
+  .featurette-divider {
+    margin: 40px 0  !important;
+  }
+
+  .featurette-heading {
+    font-size: 25px  !important;
+  }
+}
+
+@media(max-width:668px) {
+  .headline h1 {
+    font-size: 70px  !important;
+  }
+
+  .headline h2 {
+    font-size: 32px  !important;
+  }
+
+  .featurette-divider {
+    margin: 30px 0  !important;
+  }
+}
+
+@media(max-width:640px) {
+  .headline {
+    padding: 75px 0 25px 0  !important;
+  }
+
+  .headline h1 {
+    font-size: 60px  !important;
+  }
+
+  .headline h2 {
+    font-size: 30px  !important;
+  }
+}
+
+@media(max-width:375px) {
+  .featurette-divider {
+    margin: 10px 0  !important;
+  }
+
+  .featurette-image {
+    max-width: 100%  !important;
+  }
+
+  .featurette-image.pull-left {
+    margin-right: 0  !important;
+    margin-bottom: 10px  !important;
+  }
+
+  .featurette-image.pull-right {
+    margin-bottom: 10px  !important;
+    margin-left: 0  !important;
+  }
+}
