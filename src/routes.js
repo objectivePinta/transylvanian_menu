@@ -8,7 +8,7 @@ export default (
   <Route path="/" component={App}>
     <IndexRoute component={HomePage} />
     <Route path="makeyourowntour" component={TourPage} />
-  </Route>
 
+  </Route>
 
 );

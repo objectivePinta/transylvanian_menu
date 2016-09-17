@@ -10,11 +10,11 @@ import '../node_modules/bootstrap/dist/js/bootstrap';
 import '../node_modules/toastr/build/toastr.min.css';
 import configureStore from './store/configureStore';
 import {Provider} from 'react-redux'; //it attaches our store to our react container components
-
+import {loadPlaces} from './actions/placesActions';
 
 
 const store = configureStore();
-//store.dispatch(loadCourses());
+store.dispatch(loadPlaces());
 //store.dispatch(loadAuthors());
 render (
 <Provider store={store}>
