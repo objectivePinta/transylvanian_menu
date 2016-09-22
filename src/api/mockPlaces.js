@@ -32,11 +32,11 @@ const places = [
     time:30
   },
   {
-    id: 'fake-alb',
-    name: 'Turnu alb',
+    id: 'turnu-negru',
+    name: 'Turnu negru',
     address: 'Piata Sfatului nr. 5',
     img: 'http://adevarul.ro/assets/adevarul.ro/MRImage/2014/07/11/53bfbdc60d133766a853bbfc/978x0.jpg',
-    description: 'Un turn alb si frumos.. ',
+    description: 'Un turn negru si frumos.. ',
     coordinates:{long:'',lang:''},
     time:30
   }

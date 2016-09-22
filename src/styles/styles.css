@@ -8,6 +8,17 @@ body {
   margin-top: 50px  !important; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.big-checkbox {width: 50px !important; height: 50px !important;}
+
+
+.andrei-s-border {
+  margin-top:10px !important;
+  border: #3eb2cd 1px solid !important;;
+  border-radius: 10px !important;;
+  -moz-border-radius: 10px !important;;
+  -webkit-border-radius: 10px !important;
+}
+
 .header-image {
   display: block  !important;
   width: 100%  !important;
@@ -176,3 +187,4 @@ footer {
     margin-left: 0  !important;
   }
 }
+

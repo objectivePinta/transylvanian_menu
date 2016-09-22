@@ -1,9 +1,9 @@
 import * as actionTypes from './actionTypes';
 import PlacesApi from '../api/mockPlaces';
 
- function loadPlacesSuccess(places) {
+function loadPlacesSuccess(places) {
   console.log(places.length);
-  return {type:actionTypes.LOAD_PLACES_SUCCESS,places};
+  return {type: actionTypes.LOAD_PLACES_SUCCESS, places};
 }
 
 export function loadPlaces() {
