@@ -10,15 +10,16 @@ class TextInput extends Component {
     return (
       <div classNameName="form-group">
         <label for={this.props.id}>{this.props.caption}</label>
-        <input type={this.props.type} value={this.props.value} onChange={this.props.onChange} className="form-control"
-               name={this.props.id} id={this.props.id}/>
-        <input type="submit" disabled={loading} value={loading? 'saving..':'Save'} className="btn btn-primary" onClick={onSave}/>
+        <input type="text" value={this.props.value} onChange={this.props.onChange} className="form-control"
+               name={this.props.name} id={this.props.id}/>
       </div>);
   }
 
 }
 
 export default TextInput;
+
+
 
 // <div className={WrapperClass}>
 //   <label htmlFor={name}>{label}</label>
