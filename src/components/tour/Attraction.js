@@ -31,7 +31,7 @@ class Attraction extends Component {
                 <p className="lead">{this.props.description}</p>
               </div>
               <div className="col-sm-12">
-                <b>I want to visit this</b><input onChange={this.handleChange} name={this.props.name} className="big-checkbox"
+                <b>I want to visit this</b><input onChange={this.handleChange} name={this.props.index} className="big-checkbox"
                                                   type="checkbox"/>
               </div>
 

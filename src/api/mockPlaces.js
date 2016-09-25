@@ -11,7 +11,8 @@ const places = [
     img: 'http://media.cautalafix.ro/2014/09/Casa-Sfatului-22.jpg',
     description: 'Casa cea mai mare din Brasov, unde a locuit Donald Duck in 1965. ',
     coordinates:{long:'',lang:''},
-    time:10
+    time:10,
+    price:10
   },
   {
     id: 'biserica-neagra',
@@ -20,7 +21,8 @@ const places = [
     img: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Brasov,_chiesa_nera_06.JPG',
     description: 'Biserica Neagra,Biserica NeagraBiserica NeagraBiserica NeagraBiserica NeagraBiserica NeagraBiserica Neagra',
     coordinates:{long:'',lang:''},
-    time:20
+    time:20,
+    price:10
   },
   {
     id: 'turnu-alb',
@@ -29,7 +31,8 @@ const places = [
     img: 'http://adevarul.ro/assets/adevarul.ro/MRImage/2014/07/11/53bfbdc60d133766a853bbfc/978x0.jpg',
     description: 'Un turn alb si frumos.. ',
     coordinates:{long:'',lang:''},
-    time:30
+    time:30,
+    price:10
   },
   {
     id: 'turnu-negru',
@@ -38,7 +41,8 @@ const places = [
     img: 'http://adevarul.ro/assets/adevarul.ro/MRImage/2014/07/11/53bfbdc60d133766a853bbfc/978x0.jpg',
     description: 'Un turn negru si frumos.. ',
     coordinates:{long:'',lang:''},
-    time:30
+    time:30,
+    price:10
   }
 
 ];

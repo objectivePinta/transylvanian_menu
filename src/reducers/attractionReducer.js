@@ -9,7 +9,7 @@ export default function attractionReducer(state = initialState.attractions,actio
       if (state.includes(action.payload)) {
         return state.filter(attraction => attraction != action.payload );
       } else {
-        return [...state, action.payload];
+        return [action.payload,...state];
       }
     default :
       return state;

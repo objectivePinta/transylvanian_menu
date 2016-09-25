@@ -10,7 +10,12 @@ body {
 
 .big-checkbox {width: 50px !important; height: 50px !important;}
 
-
+.bg-color-main {
+  background-color: #ede7e9;
+}
+.bg-color-menu {
+  background-color: #b9b4b6;
+}
 .andrei-s-border {
   margin-top:10px !important;
   border: #3eb2cd 1px solid !important;;
