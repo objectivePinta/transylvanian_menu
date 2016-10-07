@@ -25,7 +25,7 @@ class NewAttraction extends Component {
       <form className="form-group">
         <TextInput id="name" name="name" caption="Name of attraction" onChange={this.onChange} type="text"
                    value={this.state.attraction.name}/>
-        <TextInput id="address" name="address" caption="Address of attraciton" onChange={this.onChange} type="text"
+        <TextInput id="address" name="address" caption="Address of attraction" onChange={this.onChange} type="text"
                    value={this.state.attraction.address}/>
         <TextInput id="img" name="img" caption="Image url" onChange={this.onChange} type="text"
                    value={this.state.attraction.img}/>

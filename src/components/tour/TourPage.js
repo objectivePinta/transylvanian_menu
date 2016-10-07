@@ -44,7 +44,7 @@ class TourPage extends Component {
   }
 
   componentDidLoad() {
-    dispatch(this.props.actions.loadPlaces);
+    dispatch(this.props.actions.loadAllAttractions());
   }
 
   onSelect(index) {

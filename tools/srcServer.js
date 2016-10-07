@@ -3,12 +3,15 @@ import webpack from 'webpack';
 import path from 'path';
 import config from '../webpack.config.dev';
 import open from 'open';
-
+import 'proxy-middleware';
 /* eslint-disable no-console */
 
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
+var connect = require('connect');
+var url = require('url');
+var proxy = require('proxy-middleware');
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
@@ -16,6 +19,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
 }));
 
 app.use(require('webpack-hot-middleware')(compiler));
+app.use('/api', proxy(url.parse('http://localhost:8080')));
 
 app.get('*', function(req, res) {
   res.sendFile(path.join( __dirname, '../src/index.html'));
