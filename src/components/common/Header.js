@@ -15,19 +15,10 @@ const Header = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="#">Transylvanian Menu</a>
+          <Link to="/" className="navbar-brand"  activeClassName="active">Transylvanian Menu</Link>
         </div>
         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav">
-            <li>
-              <a href="/#about">About</a>
-            </li>
-            <li>
-              <a href="/#services">Services</a>
-            </li>
-            <li>
-              <a href="/#contact">Contact</a>
-            </li>
             <li>
               <Link to="/makeyourowntour" activeClassName="active">Make your own tour</Link>
             </li>

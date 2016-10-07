@@ -8,14 +8,26 @@ class HomePage extends Component {
         <header className="header-image">
           <div className="headline">
             <div className="container">
-              <h1>One Page Wonder</h1>
-              <h2>Will Knock Your Socks Off</h2>
+              <h1>Brasov by Foot</h1>
+              <h2>Wonder and adventure</h2>
             </div>
           </div>
         </header>
 
         <div className="container">
-
+          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul className="nav navbar-nav">
+              <li>
+                <a href="/#about">About</a>
+              </li>
+              <li>
+                <a href="/#services">Services</a>
+              </li>
+              <li>
+                <a href="/#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
           <hr className="featurette-divider"/>
           <div className="featurette" id="about">
             <img className="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500"/>
@@ -28,7 +40,19 @@ class HomePage extends Component {
           </div>
 
           <hr className="featurette-divider"/>
-
+          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul className="nav navbar-nav">
+              <li>
+                <a href="/#about">About</a>
+              </li>
+              <li>
+                <a href="/#services">Services</a>
+              </li>
+              <li>
+                <a href="/#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
           <div className="featurette" id="services">
             <img className="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500"/>
             <h2 className="featurette-heading">The Second Heading
@@ -40,7 +64,19 @@ class HomePage extends Component {
           </div>
 
           <hr className="featurette-divider"/>
-
+          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul className="nav navbar-nav">
+              <li>
+                <a href="/#about">About</a>
+              </li>
+              <li>
+                <a href="/#services">Services</a>
+              </li>
+              <li>
+                <a href="/#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
           <div className="featurette" id="contact">
             <img className="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500"/>
             <h2 className="featurette-heading">The Third Heading
