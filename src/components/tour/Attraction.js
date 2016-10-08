@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component,PropTypes} from 'react';
 
 class Attraction extends Component {
 
@@ -8,8 +8,7 @@ class Attraction extends Component {
   }
 
   handleChange(event) {
-    console.log(event.target.name);
-    this.props.myFunc(event.target.name);
+    this.props.onSelect(event.target.name);
   }
 
   render() {
@@ -25,7 +24,7 @@ class Attraction extends Component {
                 <kbd>{this.props.name}</kbd>
               </div>
               <div className="col-sm-12">
-                <label> <span className="glyphicon glyphicon-map-marker"></span></label><u>{this.props.address}</u>
+                <label> <span className="glyphicon glyphicon-map-marker" /></label><u>{this.props.address}</u>
               </div>
               <div className="col-sm-12">
                 <p className="lead">{this.props.description}</p>
@@ -41,7 +40,15 @@ class Attraction extends Component {
       </ div >);
   }
 }
-
+Attraction.propTypes = {
+  onSelect:PropTypes.func,
+  parent:PropTypes.string,
+  img:PropTypes.string,
+  name:PropTypes.string,
+  address:PropTypes.string,
+  description:PropTypes.string,
+  index:PropTypes.number,
+};
 
 export default Attraction;
 

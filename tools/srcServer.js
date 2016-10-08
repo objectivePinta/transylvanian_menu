@@ -9,9 +9,9 @@ import 'proxy-middleware';
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
-var connect = require('connect');
-var url = require('url');
-var proxy = require('proxy-middleware');
+let connect = require('connect');
+let url = require('url');
+let proxy = require('proxy-middleware');
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,

@@ -11,9 +11,9 @@ const Header = () => {
           <button type="button" className="navbar-toggle" data-toggle="collapse"
                   data-target="#bs-example-navbar-collapse-1">
             <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
+            <span className="icon-bar" />
+            <span className="icon-bar" />
+            <span className="icon-bar" />
           </button>
           <Link to="/" className="navbar-brand"  activeClassName="active">Transylvanian Menu</Link>
         </div>
